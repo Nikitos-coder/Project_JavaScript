@@ -9,14 +9,14 @@
 // console.log(copy1)
 // console.log(copy2)
 
-const people = [
-    {name: 'Oleg', age: 25, budget: 40000},
-    {name: 'Olehandro', age: 35, budget: 2000},
-    {name: 'Oleks', age: 15, budget: 300000},
-    {name: 'Olena', age: 26, budget: 21000},
-    {name: 'Olen', age: 14, budget: 55000},
-    {name: 'OleOle', age: 21, budget: 900},
-]
+// const people = [
+//     {name: 'Oleg', age: 25, budget: 40000},
+//     {name: 'Olehandro', age: 35, budget: 2000},
+//     {name: 'Oleks', age: 15, budget: 300000},
+//     {name: 'Olena', age: 26, budget: 21000},
+//     {name: 'Olen', age: 14, budget: 55000},
+//     {name: 'OleOle', age: 21, budget: 900},
+// ]
 
 // for (let i = 0; i < people.length ; i++) {
 //     console.log(people[i])
@@ -95,7 +95,8 @@ const people = [
 // const indexOlena = people.findIndex((person) => person.name == "OleOle")
 // console.log(indexOlena)
 
-const newPeople = people.filter(person => person.budget > 3000)
-    .map(person => `${person.name}`)
-    .reduce((person, total) => person.budget = total)
-console.log(newPeople)
+// const newPeople = people.filter(person => person.budget > 3000)
+//     .map(person => `${person.name}`)
+//     .reduce((person, total) => person.budget = total)
+// console.log(newPeople)
+
